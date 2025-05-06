@@ -5,7 +5,6 @@ pipeline {
         stage('Batman Banner') {
             steps {
                 sh '''
-                clear
                 echo "       _==/          i     i          \\\\==_"
                 echo "     /XX/            |\\\\___/|            \\\\XX\\\\"
                 echo "   /XXXX\\\\            |XXXXX|            /XXXX\\\\"
